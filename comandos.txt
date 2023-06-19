@@ -1,0 +1,31 @@
+yarn init
+
+include 
+
+"scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts"
+  },
+
+  in package.json
+
+git init
+
+
+yarn add express
+yarn add @types\express -D
+
+Baixando o mongo pelo docker
+docker run --name mongo-minhas-contas -d -p 27017:27017 mongo:latest
+
+After creating the docker container to initialization
+of the
+container will be through the command 
+
+docker start mongo-minhas-contas
+
+docker ps -> Verify what instancies the docker is running
+
+install mongoose Odm
+yarn  add mongoose
+
+yarn add bcryptjs --> lib to encrypty to password
